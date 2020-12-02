@@ -48,6 +48,7 @@ class App extends Component{
         // console.log(this.filterUser())
         return(
             <div className="App">
+                <h1>Users</h1>
                 <SearchBox
                     placeholder="Search User"
                     onChange={this.changeState}
